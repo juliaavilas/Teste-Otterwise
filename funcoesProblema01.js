@@ -13,7 +13,6 @@ export const traduz = array01 => {
     for (let num in traducao) {
       array01[i] = array01[i].replaceAll(num, traducao[num])
     }
-
     arrayTraduzido.push(array01[i].trim())
   }
   return arrayTraduzido

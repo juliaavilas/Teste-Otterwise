@@ -12,8 +12,7 @@ console.log('### Problema 01 ###')
 const array01 = [' h3ll0 w0rld', ' w3b d3v3l0p3r ', '0tterw1s3', 'j4v4scr1pt ']
 console.log(traduz(array01))
 
-console.log(' ------------------ ')
-console.log('### Problema 02 ###')
+console.log('\n### Problema 02 ###')
 const array02 = [
   { id: 1, nome: 'João', idade: 30, salario: 15000, senioridade: 'senior' },
   { id: 2, nome: 'Pedro', idade: 22, salario: 10000, senioridade: 'pleno' },
@@ -26,16 +25,12 @@ const array02 = [
 
 let caracterFiltro = 'junior'
 
-console.log('### Ordem crescente: ', ordemCrescente(array02))
-console.log(' ------------------ ')
-console.log('### Ordem decrescente', ordemDecrescente(array02))
-console.log(' ------------------ ')
-console.log('### Filtro', filtro(array02, caracterFiltro))
-console.log(' ------------------ ')
-console.log('### Soma de todos os salários: ', somaSalarios(array02))
+console.log('\n # Ordem crescente: ', ordemCrescente(array02))
+console.log('\n # Ordem decrescente', ordemDecrescente(array02))
+console.log('\n # Filtro', filtro(array02, caracterFiltro))
+console.log('\n # Soma de todos os salários: ', somaSalarios(array02))
 
-console.log(' ------------------ ')
-console.log('### Problema 03: ###')
+console.log('\n### Problema 03: ###')
 const array03 = [
   {
     nome: 'Analu dos santos baptista',
@@ -53,10 +48,8 @@ const array03 = [
     telefone: '53984252563',
   },
 ]
-
 console.log(formataDados(array03))
 
-console.log(' ------------------ ')
-console.log('### Problema 04 ###')
+console.log('\n### Problema 04 ###')
 let cep = 96085000
 buscaEndereco(cep)
