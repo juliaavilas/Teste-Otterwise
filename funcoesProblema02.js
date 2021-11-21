@@ -5,17 +5,17 @@ const peso = {
   senior: 4,
 }
 
-export const ordemCrescente = array02 =>
+export const ordenaCrescente = array02 =>
   array02.sort((a, b) => {
     return a.idade - b.idade || a.id - b.id
   })
 
-export const ordemDecrescente = array02 =>
+export const ordenaDecrescente = array02 =>
   array02.sort((a, b) => {
     return peso[b.senioridade] - peso[a.senioridade] || b.id - a.id
   })
 
-export const filtro = (array02, caracterFiltro) =>
+export const filtra = (array02, caracterFiltro) =>
   array02.filter(
     elem =>
       elem.id === caracterFiltro ||

@@ -1,8 +1,8 @@
 import { traduz } from './funcoesProblema01.js'
 import {
-  ordemCrescente,
-  ordemDecrescente,
-  filtro,
+  ordenaCrescente,
+  ordenaDecrescente,
+  filtra,
   somaSalarios,
 } from './funcoesProblema02.js'
 import { formataDados } from './funcoesProblema03.js'
@@ -25,9 +25,9 @@ const array02 = [
 
 let caracterFiltro = 'junior'
 
-console.log('\n # Ordem crescente: ', ordemCrescente(array02))
-console.log('\n # Ordem decrescente', ordemDecrescente(array02))
-console.log('\n # Filtro', filtro(array02, caracterFiltro))
+console.log('\n # Ordem crescente(idade): ', ordenaCrescente(array02))
+console.log('\n # Ordem decrescente(senioridade): ', ordenaDecrescente(array02))
+console.log('\n # Filtro: ', filtra(array02, caracterFiltro))
 console.log('\n # Soma de todos os salários: ', somaSalarios(array02))
 
 console.log('\n### Problema 03: ###')
